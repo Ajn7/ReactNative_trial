@@ -15,7 +15,7 @@ const createStyles= ()=>
             fontSize:RFValue(25),
             fontWeight:'400',
             color:Colors.BLACK,
-            top: RFValue(-500), 
+            top: RFValue(-450), 
             left:  RFValue(-10),
             
             
@@ -50,7 +50,7 @@ const createStyles= ()=>
         logintext:{
             fontSize:RFValue(20),
             marginTop:RFValue(20),
-            color:Colors.LIGHT_GREY,
+            color:Colors.GREY,
             marginBottom:RFValue(50),
             textAlign:'center',
             fontWeight:'500'

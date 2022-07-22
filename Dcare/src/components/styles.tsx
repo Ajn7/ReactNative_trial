@@ -9,7 +9,9 @@ const createStyles=()=>StyleSheet.create({
         alignSelf:'center',
         padding:RFValue(10),
         alignItems:'center',
-        borderRadius:RFValue(10)
+        borderRadius:RFValue(10),
+        
+    
 
     },
     text:{

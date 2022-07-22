@@ -16,7 +16,7 @@ interface Iprops{
       <Text style={styles.text}>Dementia Care</Text>
 
       <ImageBackground source={SPLASHSCREEN} style={styles.bgimage}>
-      <Text style={styles.text1}>Startup</Text>
+      
       
       </ImageBackground>
       <View style={styles.footer}>
@@ -26,7 +26,7 @@ interface Iprops{
         onPress={()=>navigation.navigate('SignupScreen')}
         />
         <Pressable  onPress={()=>navigation.navigate('SigninScreen')}>
-          <Text>or Login</Text>
+          <Text style={styles.logintext}>or Login</Text>
         </Pressable>
 
       </View>

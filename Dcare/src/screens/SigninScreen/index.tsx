@@ -12,7 +12,7 @@ interface Iprops{
     const styles=useMemo(()=>createStyles(),[])
   return (
     <View style={styles.body }>
-      <Text style={styles.text}>homeScreen</Text>
+      <Text style={styles.text}>Sigin Screen</Text>
     </View>
   )
 }

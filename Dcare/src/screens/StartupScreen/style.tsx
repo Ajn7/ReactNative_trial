@@ -15,8 +15,8 @@ const createStyles= ()=>
             fontSize:RFValue(25),
             fontWeight:'400',
             color:Colors.BLACK,
-            top: RFValue(-300), 
-             left:  RFValue(-20),
+            top: RFValue(-500), 
+            left:  RFValue(-10),
             
             
         },
@@ -31,17 +31,31 @@ const createStyles= ()=>
         },
         text1:{
             fontSize:RFValue(25),
-            fontWeight:'400',
-            color:'#99CB36',
-            marginLeft:RFValue(-60),
+            fontWeight:'300',
+            color:Colors.BLACK,
+            textAlign:'center',
+            marginHorizontal:RFValue(50),
+            marginBottom:RFValue(-400)
+            
         },
-        text2:{
-            fontSize:RFValue(25),
-            fontWeight:'400',
-            color:'#244065',
-            marginLeft:RFValue(110),
-            marginTop:RFValue(-33)
+        footer:{
+    
+            boottom:0,
+            width:'100%',
+            marginBottom:RFValue(-400)
+            
+            
+            
         },
+        logintext:{
+            fontSize:RFValue(20),
+            marginTop:RFValue(20),
+            color:Colors.LIGHT_GREY,
+            marginBottom:RFValue(50),
+            textAlign:'center',
+            fontWeight:'500'
+
+        }
 
     })
 

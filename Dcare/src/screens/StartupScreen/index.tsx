@@ -1,4 +1,4 @@
-import { View, Text, Image, ImageBackground } from 'react-native'
+import { View, Text, Image, ImageBackground, Button, Pressable } from 'react-native'
 import React, { FC, useMemo } from 'react'
 import createStyles from './style'
 import { SPLASHSCREEN } from '../../assets/images'
@@ -16,10 +16,21 @@ interface Iprops{
       <Text style={styles.text}>Dementia Care</Text>
 
       <ImageBackground source={SPLASHSCREEN} style={styles.bgimage}>
-        
-      </ImageBackground>
+      <Text style={styles.text1}>Startup</Text>
       
-    </View>
+      </ImageBackground>
+      <View style={styles.footer}>
+        <Button 
+        title='Get Started'
+        disabled={false}
+        onPress={()=>navigation.navigate('SignupScreen')}
+        />
+        <Pressable  onPress={()=>navigation.navigate('SigninScreen')}>
+          <Text>or Login</Text>
+        </Pressable>
+
+      </View>
+      </View>
   )
 }
 export default StartupScreen

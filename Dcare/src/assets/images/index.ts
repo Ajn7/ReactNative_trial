@@ -1,7 +1,7 @@
-const CIRCLE=require('./images/circle.png');
-const LOGIN=require('./images/login.jpg');
-const MED=require('./images/med.jpg');
-const SPLASHSCREEN=require('./images/splashscreen.jpg');
+const CIRCLE=require('./circle.png');
+const LOGIN=require('./login.jpg');
+const MED=require('./med.jpg');
+const SPLASHSCREEN=require('./splashscreen.jpg');
 export {
  CIRCLE,
  LOGIN,

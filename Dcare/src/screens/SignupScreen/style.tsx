@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 import { RFValue } from "react-native-responsive-fontsize";
 import { Colors } from "../../constants/colors";
-const createStyles= ():any => {
+const createStyles= ()=> 
     StyleSheet.create({
       
             
@@ -18,5 +18,5 @@ const createStyles= ():any => {
 
     })
 
-}
+
 export default createStyles

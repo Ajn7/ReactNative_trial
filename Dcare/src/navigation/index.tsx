@@ -8,7 +8,8 @@ import{
     HomeScreen,
     SigninScreen,
     StartScreen,
-    SignupScreen
+    SignupScreen,
+    StartupScreen,
 }from '../screens';
 import { NavigationContainer } from '@react-navigation/native'
 export type MainStackParamList={
@@ -18,6 +19,7 @@ export type MainStackParamList={
     SigninScreen:undefined;
     StartScreen:undefined;
     SignupScreen:undefined;
+    StartupScreen:undefined;
 
 }
 
@@ -26,16 +28,19 @@ export default function Screens(){
     return(
         <NavigationContainer>
             <MainStack.Navigator
-            initialRouteName='SplashScreen'
+            initialRouteName='StartupScreen'
              screenOptions={{
                 headerShown: false,
                 }}>
+
                     <MainStack.Screen name="SplashScreen" component={SplashScreen}/>
+                    <MainStack.Screen name="StartupScreen" component={StartupScreen}/>
                     <MainStack.Screen name="HomeScreen" component={HomeScreen}/>
                     <MainStack.Screen name="StartScreen" component={StartScreen}/>
                     <MainStack.Screen name="SignupScreen" component={SignupScreen}/>
                     <MainStack.Screen name="SigninScreen" component={SigninScreen}/>
                     <MainStack.Screen name="DataScreen" component={DataScreen}/>
+                   
                   
 
             </MainStack.Navigator>

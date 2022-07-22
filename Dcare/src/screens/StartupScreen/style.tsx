@@ -14,12 +14,20 @@ const createStyles= ()=>
         text:{
             fontSize:RFValue(25),
             fontWeight:'400',
-            color:Colors.BLACK
+            color:Colors.BLACK,
+            top: RFValue(-300), 
+             left:  RFValue(-20),
+            
+            
         },
         bgimage:{
-            width:200,
-            height:200,
-            alignItems:'center'
+            width:RFValue(200),
+            height:RFValue(200),
+            position: 'absolute',
+             top: RFValue(100), 
+             left:  RFValue(80),
+                justifyContent: 'center', 
+                alignItems: 'center'
         },
         text1:{
             fontSize:RFValue(25),
